@@ -7,7 +7,6 @@ import { FaNewspaper } from "react-icons/fa";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
-  // প্রজেক্ট রিকোয়ারমেন্ট অনুযায়ী ক্যাটাগরিগুলো
   const categories = [
     { name: "Politics", link: "/news/politics" },
     { name: "Sports", link: "/news/sports" },

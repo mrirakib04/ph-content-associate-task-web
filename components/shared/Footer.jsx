@@ -23,8 +23,8 @@ const Footer = () => {
               </span>
             </Link>
             <p className="text-sm text-gray-400 leading-relaxed">
-              আপনার বিশ্বস্ত সংবাদ মাধ্যম। সারাদেশের সব সর্বশেষ আপডেট এবং
-              বিশ্লেষণ নিয়ে আমরা আছি আপনার পাশে।
+              Your trusted news outlet. We are here for you with all the latest
+              updates and analysis from across the country.
             </p>
           </div>
 

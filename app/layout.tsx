@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="max-w-370 mx-auto overflow-hidden flex flex-col items-center w-full bg-[#0f0a06]">
+        <div className="max-w-370 mx-auto overflow-hidden flex flex-col items-center w-full bg-[#0F172A] text-gray-100">
           <Navbar></Navbar>
           <div className="py-8"></div>
           {children}
