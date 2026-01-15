@@ -30,7 +30,7 @@ const CategoryPage = ({ params }) => {
     <section className="space-y-10 w-full px-4 py-16 max-w-7xl mx-auto">
       {/* Page Header */}
       <div className="flex flex-col md:flex-row justify-between items-center gap-6 border-b border-purple-500/10 pb-8">
-        <h1 className="text-3xl font-bold text-white capitalize">
+        <h1 className="md:text-3xl text-2xl font-bold text-white capitalize">
           Category: <span className="text-purple-500">{category}</span>
         </h1>
 
