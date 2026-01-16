@@ -10,8 +10,14 @@ import {
   FaDatabase,
   FaHandsHelping,
 } from "react-icons/fa";
+import "aos/dist/aos.css";
+import Aos from "aos";
+import { useEffect } from "react";
 
 const Privacy = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   const sections = [
     {
       icon: <FaShieldAlt className="text-purple-500" />,
