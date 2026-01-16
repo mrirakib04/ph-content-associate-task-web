@@ -18,7 +18,7 @@ const Contact = () => {
   useEffect(() => {
     Aos.init();
   }, []);
-  s;
+
   const contactInfo = [
     {
       icon: <FaEnvelope />,
