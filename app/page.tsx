@@ -20,7 +20,7 @@ export default function Home() {
       <BreakingNews></BreakingNews>
       <HeroSection></HeroSection>
       <CategoryTabs></CategoryTabs>
-      <SaradeshMap></SaradeshMap>
+      {/* <SaradeshMap></SaradeshMap> */}
       <VideoGallery></VideoGallery>
       <Newsletter></Newsletter>
     </div>

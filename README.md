@@ -9,7 +9,6 @@ Welcome to the **PH Newspaper** web application. This is a modern, high-performa
 - **Icons:** React Icons
 - **Animations:** AOS (Animate On Scroll) & Framer Motion
 - **Components:** Material UI (MUI) & Custom Tailwind Components
-- **Maps:** React Leaflet (for Saradesh Map feature)
 
 ---
 
