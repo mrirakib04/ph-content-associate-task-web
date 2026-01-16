@@ -84,12 +84,12 @@ const Privacy = () => {
           {sections.map((item, index) => (
             <div
               key={index}
-              className="bg-[#1E1B4B]/20 border border-purple-500/10 p-8 md:p-10 rounded-[2.5rem] backdrop-blur-sm hover:border-purple-500/30 transition-all duration-500 hover:bg-[#1E1B4B]/30 group"
+              className="bg-[#1E1B4B]/20 border border-purple-500/10 p-4 sm:p-8 md:p-10 rounded-[2.5rem] backdrop-blur-sm hover:border-purple-500/30 transition-all duration-500 hover:bg-[#1E1B4B]/30 group"
               data-aos="fade-up"
               data-aos-delay={index * 50}
             >
               <div className="flex flex-col sm:flex-row items-start gap-6">
-                <div className="text-4xl p-5 bg-purple-600/10 rounded-3xl border border-purple-500/20 group-hover:scale-110 transition-transform duration-500">
+                <div className="text-3xl md:text-4xl p-5 bg-purple-600/10 rounded-3xl border border-purple-500/20 group-hover:scale-110 transition-transform duration-500">
                   {item.icon}
                 </div>
                 <div>
