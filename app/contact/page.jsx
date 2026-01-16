@@ -15,6 +15,10 @@ import Aos from "aos";
 import { useEffect } from "react";
 
 const Contact = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
+  s;
   const contactInfo = [
     {
       icon: <FaEnvelope />,
