@@ -114,10 +114,16 @@ const Footer = () => {
               >
                 <FaLinkedin />
               </a>
-              <a href="#" className="hover:text-purple-500 transition">
+              <a
+                href="https://www.facebook.com/MRI.Rakib04"
+                className="hover:text-purple-500 transition"
+              >
                 <FaFacebook />
               </a>
-              <a href="#" className="hover:text-purple-500 transition">
+              <a
+                href="https://www.x.com/mrirakib04"
+                className="hover:text-purple-500 transition"
+              >
                 <FaTwitter />
               </a>
             </div>
