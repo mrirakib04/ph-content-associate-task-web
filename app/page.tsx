@@ -1,11 +1,20 @@
+"use client";
+
 import BreakingNews from "./../components/home/BreakingNews";
 import HeroSection from "./../components/home/HeroSection";
 import CategoryTabs from "./../components/home/CategoryTabs";
 import SaradeshMap from "./../components/home/SaradeshMap";
 import VideoGallery from "./../components/home/VideoGallery";
 import Newsletter from "./../components/home/Newsletter";
+import "aos/dist/aos.css";
+import Aos from "aos";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   return (
     <div className="flex flex-col items-center w-full max-w-7xl mx-auto">
       <BreakingNews></BreakingNews>
